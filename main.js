@@ -3,7 +3,7 @@ function initPhoneNumber() {
 
   $showPhone.addEventListener('click', function handleShowPhoneClick(e) {
     // show number
-    var safeNumber = '2404-996 )802('.split('').reverse().join('')
+    var safeNumber = '5511-818 )802('.split('').reverse().join('')
     $showPhone.innerHTML = $showPhone.innerHTML.replace('Show my number', safeNumber)
 
     // add tel: attr
