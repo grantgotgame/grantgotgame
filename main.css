@@ -159,22 +159,6 @@ img {
     .top-nav ul li a {
       padding: 1rem; } }
 
-.open-source {
-  display: flex;
-  flex-wrap: wrap; }
-  .open-source .repo {
-    flex: 1 0 auto;
-    padding: 1em;
-    width: 50%; }
-    .open-source .repo .name {
-      font-weight: bold; }
-    .open-source .repo .role {
-      margin-left: 0.375em;
-      padding-left: 0.5em;
-      border-left: 0.125em solid #b6b1a5;
-      color: #6b6557;
-      font-size: 1.2em; }
-
 .projects {
   display: flex;
   flex-direction: column; }
@@ -204,47 +188,5 @@ img {
       flex-direction: row; }
       .projects .project .preview {
         flex: 2; } }
-
-.organizations {
-  display: flex;
-  flex-direction: column; }
-  .organizations .organization {
-    display: flex;
-    flex-direction: column;
-    margin: 1em 0;
-    background: #d8d5cf; }
-    .organizations .organization .preview {
-      padding: 1em; }
-      .organizations .organization .preview img {
-        margin: auto;
-        width: 100%; }
-    .organizations .organization .content {
-      flex: 1;
-      display: flex;
-      flex-direction: column;
-      padding: 1rem; }
-      .organizations .organization .content .links {
-        flex: 1;
-        display: flex;
-        flex-wrap: wrap;
-        align-items: flex-end; }
-  @media all and (min-width: 40rem) {
-    .organizations {
-      flex-direction: row; }
-      .organizations .organization {
-        flex: 1;
-        margin: 1em; }
-        .organizations .organization:first-child {
-          margin-left: 0; }
-        .organizations .organization:last-child {
-          margin-right: 0; } }
-  @media all and (min-width: 48rem) {
-    .organizations {
-      flex-direction: column; }
-      .organizations .organization {
-        margin: 1em 0;
-        flex-direction: row; }
-        .organizations .organization .preview {
-          padding: 0; } }
 
 /*# sourceMappingURL=main.css.map */
