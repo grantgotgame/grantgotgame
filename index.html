@@ -52,16 +52,18 @@
               <a href="https://docs.google.com/document/d/13sce2jEWFdr9Gt1SskGnmAI_GmUf_NViNB39hJJOFGU">unfinished
                 poem</a>
               to capture that feeling, from which I drew inspiration for the game.
-            </p>
-            <p class="answer">
-              <strong class="question">How?</strong>
               This was my final project for
               <a href="https://learn.unity.com/tutorial/week-4-personal-project-aug-3-aug-7">Create with Code</a>.
               I was in a dark place after getting laid off at the start of the pandemic and I felt trapped.
               I channeled these feelings into the game mechanics.
-              At the start, you fall from a great height into a deep well.
-              Hitting one of the four walls changes your alignment.
-              Seek out the light to increase your strength and escape. Now with GOD MODE!
+            </p>
+            <p class="answer">
+              <strong class="question">How?</strong>
+              At the start, you fall from a great height into a deep well. Hitting one of the four walls changes the
+              player object to align with and move along the new wall, creating a 2D effect in a 3D game. Since the
+              player object is a sphere, I had to build a function to prevent the player from drifting outside the
+              playable area. The player's eye shines a light toward the nearest objective. In 2024, I released GOD MODE.
+              Unlocked after completing the game, this mode gives the player infinite stamina.
             </p>
             <p class="answer">
               <strong class="question">Technologies:</strong>
@@ -126,13 +128,13 @@
             </h2>
             <p class="answer">
               <strong class="question">Why?</strong>
-              Created in 48 hours for <a href="https://itch.io/jam/gmtk-2023">GMTK Game Jam 2023</a> – with the surprise
-              theme of Roles Reversed – this was my third time participating in the annual event, but it was the first
-              time I was satisfied with the results.
+              Created in 48 hours for <a href="https://itch.io/jam/gmtk-2023">GMTK Game Jam 2023</a>, with the surprise
+              theme of Roles Reversed. This was my third time participating in the annual event, but it was the first
+              time that I was satisfied with the results.
             </p>
             <p class="answer">
               <strong class="question">How?</strong>
-              Applying lessons learned from the first two GMTK jams, I found a team early and organized an 8-hour
+              Applying lessons learned from my first two GMTK jams, I found a team early and organized an 8-hour
               practice jam two weeks before the event started. This strategy helped us work through some technical
               issues and perfect our team dynamic, to produce a fun game within the time limit. I was responsible for
               code, testing, and project management. The whole team worked together nicely to invent and develop the
@@ -191,11 +193,11 @@
 
         <div class="project">
           <div class="preview">
-            <img src="img/preview-sttt.png" alt="Supreme Tic Tac Toe screenshot">
+            <img src="img/preview-sttt.png" alt="Supreme Tic-Tac-Toe screenshot">
           </div>
           <div class="content">
             <h2 class="name">
-              Supreme Tic Tac Toe
+              Supreme Tic-Tac-Toe
               <span class="subheader">2020</span>
             </h2>
             <p class="answer">
@@ -207,10 +209,11 @@
             </p>
             <p class="answer">
               <strong class="question">How?</strong>
-              You, a mere mortal meatbag, face off against the perfect immortal machine
-              known as "Supreme" in an epic battle of X's and O's.
-              It will require all of your human cunning to find and exploit bugs
-              and defeat Supreme at its own game.
+              After playing the game a few times, I noted several typos. I used Visual Studio's search function,
+              plugging in one of the misspelled words to discover where it existed in the code. Although I was
+              unfamiliar with LUA, I was able to reverse-engineer the code structure sufficiently to modify the game
+              text. I looked through each of the game files, correcting typos as I found them, and contributing some
+              small additions.
             </p>
             <p class="answer">
               <strong class="question">Technologies:</strong> Love 2D, LUA, and many others.
@@ -244,10 +247,11 @@
             </p>
             <p class="answer">
               <strong class="question">How?</strong>
-              You are a very gassy chicken.
-              Use it to your advantage but be careful.
-              With all that gas, you're ready to blow!
-              Sound on for fart noises. ;)
+              In the spirit of keeping it simple, I limited the controls to a single input. The player can tap anywhere
+              or press the spacebar to fart, increasing the chicken's speed and propelling it upward toward the deadly
+              spikes. The player must fart to avoid obstacles. I spent a good chunk of time fine-tuning the fart noises
+              and particle effects and I'm quite pleased with the results. I think this one is hilarious. It also
+              happens to be my first mobile-friendly game.
             </p>
             <p class="answer">
               <strong class="question">Technologies:</strong> Unity, C#, and many others.
@@ -262,7 +266,6 @@
             </div>
           </div>
         </div>
-
       </div>
     </div>
   </section>
